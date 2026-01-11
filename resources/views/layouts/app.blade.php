@@ -50,7 +50,7 @@
             text-align: center;
         }
     </style>
-    
+
 </head>
 <body>
 
@@ -66,7 +66,9 @@
 
             <a href="{{ url('/')}}">Inicio</a>
             <a href="{{ route('entidades.index')}}">Entidades</a>
+            <a href="{{ route('programas.index')}}">Programas</a>
             
+
         </nav>
 
         {{-- Contenido Principal --}}
@@ -85,5 +87,3 @@
 
         </footer>
 
-</body>
-</html>
